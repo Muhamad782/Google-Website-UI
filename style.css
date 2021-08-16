@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.top{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    display: flex;
+    align-items: center;
+}
+.top a{
+    color: #333;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin: 0 5px;
+    font-size: 13px;
+}
+.top a:hover{
+    text-decoration: underline;
+}
+.top img{
+    width: 25px;
+    margin: 0 12px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.top .user{
+    width: 35px;
+}
+button{
+    padding: 8px 12px;
+    border-radius: 35px;
+    border: none;
+    outline: none;
+    background: #fff;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.3);
+    color: #0077ff;
+    font-size: 15px;
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    cursor: pointer;
+}
+button i{
+    margin-right: 10px;
+}
+.wrapper{
+    width: 100%;
+    max-width: 480px;
+    padding: 20px 0;
+    border-radius: 20px;
+    text-align: center;
+}
+.input{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.input input{
+    width: 100%;
+    height: 45px;
+    margin: 25px 8px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 9px 0 rgba(0,0,0,0.3);
+    font-size: 17px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.input i{
+    font-size: 22px;
+    color: #bfbfbf;
+}
+.input .fa-search{
+    position: absolute;
+    left: 24px;
+}
+.input .fa-microphone{
+    position: absolute;
+    right: 24px;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    flex-wrap: wrap;
+}
+.bottom .social{
+    font-size: 25px;
+    width: 26%;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+.bottom .social:hover{
+    background-color: #e0e0e0;
+}
+.bottom .social i{
+   background-color: #eee;
+   padding: 10px;
+   border-radius: 100px;
+   margin: 15px 0;
+}
+.bottom .social i.fa-youtube{
+    color: #ff0000;
+}
+.bottom .social i.fa-facebook{
+    color: #0077ff;
+}
+.bottom .social i.fa-google{
+    color: #00ff77;
+}
+.bottom .social i.fa-github{
+    color: #333;
+}
+.bottom .social p{
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #333;
+}
